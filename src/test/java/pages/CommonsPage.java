@@ -20,5 +20,8 @@ public class CommonsPage {
     @FindBy(xpath = "//button[@data-loading-text='Generate']")
     public WebElement generateButton;
 
+    @FindBy(xpath = "//li[@data-value='vegan']/a")
+    public WebElement vegan;
+
 
 }

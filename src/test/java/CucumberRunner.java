@@ -4,9 +4,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {"html:target/cucumberReport.html", "json:target/testReport.json"},
         features = "src/test/resources/features",
         glue = "step_definitions",
-        tags = "@generateCalories"
+        tags = "@search1"
 )
 public class CucumberRunner {
 }

@@ -15,11 +15,11 @@ public class Driver {
     static WebDriver driver;
 
     public static WebDriver getDriver(){
-
         // if driver object already exists, then we just return it
         if (driver != null){
             return driver;
         }
+
 
         String browser = Config.getProperty("browser");
 
