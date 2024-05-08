@@ -1,3 +1,4 @@
+@login
 Feature: Verify user is able to login
 
   Background:
